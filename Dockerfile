@@ -11,7 +11,7 @@
 #     docker run -it --rm -v $PWD/yocto/output:/home/cuteradio/yocto/output cuteradio-image:latest
 
 # Use Ubuntu 18.04.2 LTS as the basis for the Docker image.
-FROM ubuntu:18.04.2
+FROM ubuntu:18.04
 
 # Install all the Linux packages required for Yocto builds. Note that the packages python3,
 # tar, locales and cpio are not listed in the official Yocto documentation. The build, however,
